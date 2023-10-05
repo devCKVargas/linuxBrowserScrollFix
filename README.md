@@ -2,12 +2,23 @@
 
 A script that enables the Windows middle-click scrolling feature for some of the popular Chromium-based browsers on Linux (tested on Arch & Arch-based distros).
 
+> Browsers: Brave, Google Chrome, Chromium, Edge
+
 ## Usage
 
-```bash
-git clone https://github.com/devckvargas/linuxbrowserscrollfix && 
-cd linuxbrowserscrollfix/scripts &&
+> Warning: Close your browser(s) first
+
+```shell
+git clone https://github.com/devckvargas/linuxbrowserscrollfix ~/linuxbrowserscrollfix && 
+cd ~/linuxbrowserscrollfix/scripts &&
 ./fixScroll.sh
+```
+
+> Note: if you encounter permission denied
+> Close your browsers and:
+
+```shell
+sudo ~/linuxbrowserscrollfix/scripts/fixScroll.sh
 ```
 
 Browsers will tell you that it's an unsupported flag, just ignore by closing the [popup warning](#popup-warning) (recommended)
@@ -20,12 +31,12 @@ if you don't want to see this **cd** to **linuxbrowserscrollfix/scripts** and ru
 
 To-do add popup scripts
 
-<!-- ```bash
+<!-- ```shell
 ./hidePopup.sh
 ```
 
 revert/show the popup
 
-```bash
+```shell
 ./revertPopup.sh
 ``` -->
