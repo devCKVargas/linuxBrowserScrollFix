@@ -40,3 +40,7 @@ revert/show the popup
 ```shell
 ./revertPopup.sh
 ``` -->
+
+***If you like my work, please consider:***
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J1QJINW)
